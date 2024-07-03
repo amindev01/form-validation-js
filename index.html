@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <!-- Form -->
+    <section class="container">
+      <h1>Fill this Form</h1>
+
+      <form>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Name*"
+            class="username"
+            id="username"
+          />
+          <p class="user-msg msg">error message</p>
+        </div>
+
+        <div class="input-container">
+          <input
+            type="email"
+            placeholder="Email Address*"
+            class="email"
+            id="email"
+          />
+          <p class="email-msg msg">error message</p>
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            placeholder="Password*"
+            class="password1"
+            id="password1"
+          />
+          <p class="password1-msg msg">error message</p>
+        </div>
+        <div class="input-container">
+          <input
+            type="password"
+            placeholder="Confirm Password*"
+            id="password2"
+            class="password2"
+          />
+          <p class="password2-msg msg">error message</p>
+        </div>
+        <input type="submit" value="Submit" class="submit" />
+ 
+      </form>
+      <!-- Image / Content -->
+   
+    </section>
+    <div class="content">
+      
+      <img src="https://d1idiaqkpcnv43.cloudfront.net/website1.0/images/sign-up.png" alt="img">
+    
+    </div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
